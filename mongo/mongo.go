@@ -201,6 +201,3 @@ func (mr *mongoCursor) All(ctx context.Context, result interface{}) error {
 	return mr.mc.All(ctx, result)
 }
 
-func HelloWorld() {
-	
-}
